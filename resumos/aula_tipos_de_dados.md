@@ -9,11 +9,32 @@ Por exemplo:
    
 Com esses Tipos eu sou capaz de realizar operações matemáticas.
    
-|Tipo | Descrição |Aparência|
-|-----|-----------|---------|
-|int| inteiro|1|
-|float| flutuante ou quebrado|1.0|
-|complex| números e letras|1A|
+|Classe | Tipo                 |Aparência|
+|-------|----------------------|---------|
+|int    | inteiro              |1        |
+|float  | flutuante ou quebrado|1.0      |
+|complex| números e letras     |1A       |
 
-Esse Tipo para ser armazenado em memória irá consumir 24 bytes.
+Esse tipo para ser armazenado em memória irá consumir 24 bytes.
 
+## Tipos de dados built-in mais utilizados
+
+Tipos built-in são aqueles que já vem por padrão dentro da linguagem. Alguns exemplos válidos são:
+
+|Tipo      | Classe                      | Função                    |
+|----------|-----------------------------|---------------------------|
+|Texto     |str                          |Armazena texto             |
+|Númerico  |int, float ou complex        |Armazena numerais          |
+|Sequência |list, tuple e range          |Armazena letras e numeros  |
+|Mapa      |dict                         |Armazena chave e valor     |
+|Coleções  |set e frozenset              |Similar ao list porém sem repetições |
+|Booleano  |bool                         |Condiciona valor entre verdadeiro e falso |
+|Binário   |bytes, bytearray, memoryview | Memória                   |
+
+### Tipos de Números
+
+#### Números inteiros
+
+Os números inteiros são representados pela *classe* int e possuem precisão ilimitada. São exemplos válidos de números inteiros:
+
+1, 10, 100, -1, -10, -100
